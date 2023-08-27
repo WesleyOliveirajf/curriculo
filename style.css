@@ -7,10 +7,12 @@
 }
 html, body{
 
-   background-color: #8f6e5d;
+   /*background-color: #8f6e5d;*/
+   background-color: black;
    width: 1280px;
    height: 780px;
    margin: auto;
+   
 
 }
 
@@ -20,7 +22,10 @@ html, body{
 
     
 .navbar{
-    background-image: linear-gradient( to left, #d1a569, #ffcc70 );
+    /*background-image: linear-gradient( to left, #d1a569, #ffcc70 );*/
+    
+    background-color:  rgb(218, 6, 207);;
+    box-shadow: 2px 2px 15px rgb(218, 6, 207);
     
     
    
@@ -31,9 +36,12 @@ html, body{
 
 .bloco1 {
    margin: 0 auto;
-   background-color: rgb(255, 255, 255);
+   /*background-color: rgb(103, 52, 187);*/
    margin-bottom: 05px;
    border-radius: 0px 0px 20px 20px;
+   color: #eceff2;
+   box-shadow: 2px 2px 15px rgb(218, 6, 207);
+  
 }
 
 
@@ -92,7 +100,7 @@ h2{
 }
 
 span{
-    color: blue;
+    color: rgb(218, 6, 207);
     font-weight: bolder;
     text-decoration: underline;
 
@@ -105,7 +113,6 @@ span{
 
 #button{
     margin: 10px;
-    background-image: linear-gradient( to left, #d1a569, #ffcc70 );
     width: 204px;
     height: 65px;
     padding: 30px;
@@ -140,19 +147,24 @@ span{
 }
 
 .facebook {
-    background-image: linear-gradient( to left, #d1a569, #ffcc70 );
+   /* background-image: linear-gradient( to left, #d1a569, #ffcc70);*/
+   background-color: rgb(218, 6, 207);
 }
 
 .twitter {
-    background-image: linear-gradient( to left, #d1a569, #ffcc70 );
+    /* background-image: linear-gradient( to left, #d1a569, #ffcc70);*/
+    background-color: rgb(218, 6, 207);
 }
 
 .instagram {
-    background-image: linear-gradient( to left, #d1a569, #ffcc70 );
+     /* background-image: linear-gradient( to left, #d1a569, #ffcc70);*/
+   background-color: rgb(218, 6, 207);
 }
 
 .social-button:hover {
     background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 2px 2px 15px  rgb(218, 6, 207);
+    color: white;
 }
 
 /*-----------------------------BLOCO 2---------------------------------*/
@@ -160,10 +172,13 @@ span{
 
 
 .bloco2{
-    background-color: #d1a569;
+   /* background-color: #d1a569; */
     height: 820px;
     margin-bottom: 05px;
-    border-radius: 20px
+    border-radius: 20px;
+    color: white;
+    box-shadow: 2px 2px 15px rgb(218, 6, 207);
+    
     
 }
 
@@ -206,7 +221,8 @@ span{
     width: 350px ;
     height: 500px;
     margin-left: 95px; 
-    box-shadow: 2px 2px 15px black;
+    box-shadow: 2px 2px 15px  rgb(218, 6, 207);
+    border-radius: 20px;
 }
 
 @media (max-width: 768px) {
@@ -241,10 +257,12 @@ span{
 
 
 .bloco3{
-    background-color: white;
+    background-color: rgb(15, 15, 15);
     padding-bottom: 30px;
     height: 820px;
-    border-radius: 20px
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(218, 6, 207);
+    color: white;
 }
 
 #container{
@@ -259,22 +277,26 @@ span{
 
 .habilidade{
     font-size: 20px;
-    padding: 30px;
+    padding: 10px;
     font-family: 'bogart', serif;
-    background-color: aqua;
+    box-shadow: 2px 2px 15px  rgb(218, 6, 207);
+    border-radius: 30PX;
 }
 
 .soft{
     font-size: 20px;
-    padding: 30px;
+    padding: 10px;
     font-family: 'bogart', serif;
-    background-color: aqua;
+    box-shadow: 2px 2px 15px  rgb(218, 6, 207);
+    border-radius: 30PX;
 }
 
 .resumo{
-    background-color: #ffcc70;
+    /*background-color: #ffcc70;*/
+    box-shadow: 2px 2px 15px rgb(218, 6, 207);
     border-radius: 30px;
     margin: 30px;
+    
     
 
 }
@@ -289,8 +311,32 @@ span{
     
     
 }
+/*------------------------------------------bloco 4----------------------------------------*/
 
 /* Estilos para o botão */
+
+
+.botao-contato {
+    display: inline-block;
+    margin: 10px;
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+  }
+.botao-whatsapp{
+    display: inline-block;
+    background-color: #eceff2;
+    color: rgb(16, 16, 16);
+    margin-top: 20px;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 10px;
+    
+}
+
 #topButton {
     display: none; /* Esconde o botão por padrão */
     position: fixed;
@@ -314,19 +360,21 @@ span{
 
 
 .footer{
-    background-color: #ffcc70;
+    background-color: black;
     margin-top: 05px;
-    border-radius: 20px
+    border-radius: 20px;
+    box-shadow: 2px 2px 15px rgb(218, 6, 207);
 }
 
 .botao-contato {
     display: inline-block;
+    margin: 10px;
     background-color: #007bff;
     color: white;
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
-    float: right;
+    
   }
 .botao-whatsapp{
     display: inline-block;
@@ -336,5 +384,5 @@ span{
     padding: 10px 20px;
     text-decoration: none;
     border-radius: 10px;
-    float:right;
+    
 }
