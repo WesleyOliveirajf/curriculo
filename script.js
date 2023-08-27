@@ -1,6 +1,9 @@
 // Mostra ou esconde o botão dependendo da posição do scroll
-window.onscroll = function() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+window.onscroll = function () {
+    if (
+        document.body.scrollTop > 20 ||
+        document.documentElement.scrollTop > 20
+    ) {
         document.getElementById("topButton").style.display = "block";
     } else {
         document.getElementById("topButton").style.display = "none";
@@ -13,10 +16,10 @@ function scrollToTop() {
     document.documentElement.scrollTop = 0; // Para Chrome, Firefox, IE e Opera
 }
 
-document.addEventListener('DOMContentLoaded', function() {
-    const textoElemento = document.getElementById('texto');
+document.addEventListener("DOMContentLoaded", function () {
+    const textoElemento = document.getElementById("texto");
     const texto = textoElemento.innerHTML;
-    textoElemento.innerHTML = ''; // Limpa o conteúdo original
+    textoElemento.innerHTML = ""; // Limpa o conteúdo original
 
     let i = 0;
     function escreverTexto() {

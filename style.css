@@ -268,26 +268,50 @@ span{
 #container{
     display: flex;
     align-items: center;
+    
 }
 
-.lista{
+.lista1{
    
-    margin: 70px;
+    box-shadow: 2px 2px 15px rgb(218, 6, 207);
+    border-radius: 10px;
+    margin-left: 23px;
+    width: 200px;;
+    height: 200px;
+    font-size: 20px;
+    
+    
+}
+
+.tex{
+    margin-left: 23px;
+}
+
+.lista2{
+    
+    box-shadow: 2px 2px 15px rgb(218, 6, 207);
+    border-radius: 10px;
+    margin-left: 23px;
+    width: 200px;;
+    height: 200px;  
+    font-size: 20px;
+        
+    
 }
 
 .habilidade{
     font-size: 20px;
     padding: 10px;
     font-family: 'bogart', serif;
-    box-shadow: 2px 2px 15px  rgb(218, 6, 207);
-    border-radius: 30PX;
+    text-align: justify;
+    margin-left: 23px;
+   
 }
 
 .soft{
     font-size: 20px;
     padding: 10px;
     font-family: 'bogart', serif;
-    box-shadow: 2px 2px 15px  rgb(218, 6, 207);
     border-radius: 30PX;
 }
 
@@ -308,6 +332,7 @@ span{
     margin: 30px;
     font-size: 20px;
     text-decoration: dashed;
+    
     
     
 }
@@ -344,7 +369,7 @@ span{
     right: 20px;
     z-index: 99;
     font-size: 16px;
-    background-color: #555;
+    background-color:rgb(218, 6, 207)/* #555*/;
     color: white;
     border: none;
     outline: none;
